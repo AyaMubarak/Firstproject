@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+   
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+   
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+        <a class="navbar-brand" href="./index.html">Home</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="profile.html">Profiles</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Reports</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Settings</a></li>
+            </ul>
+            <div>
+                <img src="https://img.icons8.com/?size=100&id=11642&format=png&color=FFFFFF" alt="notification"  class=" my-2 my-sm-0" style="width:32px;height: 32px;">
+                <img src="https://img.icons8.com/?size=100&id=77883&format=png&color=FFFFFF" alt="profile"  class=" my-2 my-sm-0" style="width:32px;height: 32px;">
+
+            </div>
+        </div>
+    </nav>
+    <div class="d-flex align-items-center justify-content-between">
+        <div class="d-flex align-items-center">
+          <img src="https://img.icons8.com/?size=100&id=11266&format=png&color=000000" alt="Vacation Icon" class="img-fluid" style="max-width: 32px; margin-right: 20px"/>
+          <h2>Vacation Requests</h2>
+        </div>
+        <input type="text" class="form-control w-25 search-input" placeholder="Search..."/>
+      </div>
+    <div class="filter-class container-fluid row d-flex justify-content-between mb-4">
+        <div class="checkbox">
+            <input type="checkbox" name="select" id="selectAll">
+            <label for="selectAll">Select All</label>
+        </div>
+        <img src="./images/filter.png" alt="filter" style="width:30px;height:30px;" id="filterBtn">
+    </div>
+
+    <div class="card-body">
+        <div class="row no-gutters">
+          <div class="col-md-4 col-sm-6 mb-4 card-item">
+            <div class="card" style="margin-right: 20px;">
+              <div class="card-body d-flex flex-column align-items-center mt-4 mb-4">
+                <div class="d-flex align-items-center mb-3">
+                  <img src="./images/download.jpg" class="card-img" alt="Employee Picture" style="border-radius: 50%; width: 80px; height: 80px; margin-right: 20px;" />
+                  <h5 class="card-title">Ahmad Attar</h5>
+                </div>
+                <div class="d-flex flex-column align-items-start w-100">
+                  <div class="d-flex justify-content-between w-100 mb-2">
+                    <p class="card-text text-left"><span class="span">Submitted on:</span><br> 1/3/2024</p>
+                    <button class="btn btn-success">Approve</button>
+                  </div>
+                  <div class="d-flex justify-content-between w-100 mb-2">
+                    <p class="card-text text-left"><span class="span">Duration:</span><br>2 Weeks (1/4/2023 - 14/4/2023)</p>
+                    <button class="btn btn-outline-success">Decline</button>
+                  </div>
+                  <div class="d-flex justify-content-between w-100 mb-2">
+                    <p class="card-text text-left"><span class="span">Salary:</span><br>1000 AED</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 mb-4 card-item">
+            <div class="card" style="margin-right: 20px;">
+              <div class="card-body d-flex flex-column align-items-center mt-4 mb-4">
+                <div class="d-flex align-items-center mb-3">
+                  <img src="./images/download.jpg" class="card-img" alt="Employee Picture" style="border-radius: 50%; width: 80px; height: 80px; margin-right: 20px;" />
+                  <h5 class="card-title">Ahmad Attar</h5>
+                </div>
+                <div class="d-flex flex-column align-items-start w-100">
+                  <div class="d-flex justify-content-between w-100 mb-2">
+                    <p class="card-text text-left"><span class="span">Submitted on:</span><br> 1/3/2024</p>
+                    <button class="btn btn-success">Approve</button>
+                  </div>
+                  <div class="d-flex justify-content-between w-100 mb-2">
+                    <p class="card-text text-left"><span class="span">Duration:</span><br>2 Weeks (1/4/2023 - 14/4/2023)</p>
+                    <button class="btn btn-outline-success">Decline</button>
+                  </div>
+                  <div class="d-flex justify-content-between w-100 mb-2">
+                    <p class="card-text text-left"><span class="span">Salary:</span><br>1000 AED</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+   
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.min.js"></script>
+    <script src="./index.js"></script>
+</body>
+</html>

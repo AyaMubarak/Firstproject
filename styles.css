@@ -1,0 +1,56 @@
+body {
+    background-color: white;
+}
+.card{
+    border-radius: 15px; 
+    overflow: hidden; 
+}
+.card-header {
+    background-color: #f8f9fa;
+}
+زsearch-input {
+    margin-left: 20px;
+  }
+.navbar {
+    padding: 0.75rem 1rem;
+}
+
+.nav-link {
+    color: white !important;
+}
+.span{
+    color: grey;
+}
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-body {
+    text-align: center;
+}
+
+
+.card-footer {
+    text-align: center;
+}
+.bold{
+    color: black;
+}
+.color{
+    color: green;
+}
+.d-none {
+    display: none;
+}
+  
+
+@media (max-width: 768px) {
+    .navbar .navbar-nav {
+        text-align: center;
+    }
+
+    .card-body {
+        text-align: left;
+    }
+}
